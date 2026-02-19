@@ -79,8 +79,8 @@ install_easytier() {
 
     #New Version
     URL_X86="https://github.com/EasyTier/EasyTier/releases/download/v2.4.5/easytier-linux-x86_64-v2.4.5.zip"
-    URL_ARM_SOFT="https://github.com/Musixal/Easy-Mesh/raw/main/core/v2.0.3/easytier-linux-armv7/"              
-    URL_ARM_HARD="https://github.com/Musixal/Easy-Mesh/raw/main/core/v2.0.3/easytier-linux-armv7hf/"
+    URL_ARM_SOFT="https://github.com/EasyTier/EasyTier/releases/download/v2.4.5/easytier-linux-armv7-v2.4.5.zip"              
+    URL_ARM_HARD="https://github.com/EasyTier/EasyTier/releases/download/v2.4.5/easytier-linux-armv7hf-v2.4.5.zip"
     
     # Check if the directory exists
     if [ -d "$DEST_DIR" ]; then    
@@ -726,7 +726,7 @@ echo -e "   ${CYAN}╔═══════════════════�
 echo -e "   ║            🌐 ${WHITE}EasyMesh                 ${CYAN}║"
 echo -e "   ║        ${WHITE}VPN Network Solution            ${CYAN}║"
 echo -e "   ╠════════════════════════════════════════╣"
-echo -e "   ║  ${WHITE}Core Version: 2.03                    ${CYAN}║"
+echo -e "   ║  ${WHITE}Core Version: 2.4.5                   ${CYAN}║"
 echo -e "   ║  ${WHITE}Telegram Channel: @Gozar_Xray         ${CYAN}║"
 echo -e "   ║  ${WHITE}GitHub: github.com/Musixal/easy-mesh  ${CYAN}║"
 echo -e "   ╠════════════════════════════════════════╣${RESET}"
